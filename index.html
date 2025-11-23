@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+    <h1>Building a Form</h1>
+    <form action="not yet">
+        <fieldset>
+            <legend>
+                Add User
+            </legend>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="first_name" id="firstName">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="last_name" id="lastName">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email_address" id="email">
+            </div>
+            <div>
+                <label for="status">Status</label>
+                <select name="user_status" id="status">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+        <P>Choose your favorite programming language:</P>
+        <div>
+           
+            <input type="radio" name="HTML_tag" id="html">
+             <label for="html">HTML</label>
+             <input type="radio" name="CSS_tag" id="css">
+             <label for="css">CSS</label>
+             <input type="radio" name ="Javascript_tag" id="javascript">
+             <label for="javascript">JavaScript</label>
+        </div> 
+        <div>
+            <label for="comments">Comments</label>
+            <textarea name="textarea_tag" id="comments"></textarea>
+
+        </div>
+        <div>
+            <label for="currentdate">Current Date</label>
+            <input type="date" name="date_tag" id="currentdate">
+        </div>   
+        <div>
+            <input type="radio" name="signup_tag" id="signup">
+            <label for="signup">Sign up for newslette</label>
+
+        </div>
+        <div>
+            <input type="radio" name="terms_tag" id="terms">
+            <label for="terms">Agree to terms and conditions</label>
+        </div>
+        <div>
+            <button type="submit" id="button">Submit</button>
+        </div>
+        </fieldset>
+    </form>
+    
+</body> 
+</html>
